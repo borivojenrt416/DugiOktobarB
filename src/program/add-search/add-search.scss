@@ -1,0 +1,72 @@
+
+.tabela{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: antiquewhite;
+
+    #bt {
+        width:3em;
+        height:2.4em;
+        text-align: center;
+        display:inline-block;
+        font-size:1.5em;
+        padding:0;
+        background-color:#0e8bff; 
+        color:white;
+        border:2px solid #0088ff;
+        border-radius:5px;
+       &:hover{
+        background-color:#00d2f7; 
+        }
+        &:active{
+            background-color:#00d9ff; 
+        }
+    }
+    
+    #trash{
+        width:2em;
+        height: 2em;
+        font-size:1.5em;
+        padding:0;
+    }
+    
+    input{
+        height: 3.1em;
+        width: 35em;
+    }
+    
+    .zadaci{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 41%;
+        // height: 300px;
+        background-color: #00d9ff;
+        margin-top:1%;
+    }
+   
+   .korpa{
+       width:15%;
+      
+   }
+    .content{
+        width:38.2%;
+    }
+    .title{
+        width:30%;
+    }
+    .uploaded{
+        width:15%;
+    }
+    .zadaci th{
+      
+        margin:0;
+        
+    }
+     
+
+    
+}
+
